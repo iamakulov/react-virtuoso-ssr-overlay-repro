@@ -1,0 +1,15 @@
+{
+  "name": "react-virtuoso-next-repro",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3211",
+    "build": "next build",
+    "start": "next start -p 3211"
+  },
+  "dependencies": {
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-virtuoso": "^4.18.5"
+  }
+}
