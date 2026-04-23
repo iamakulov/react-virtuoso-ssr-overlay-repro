@@ -17,7 +17,7 @@ export async function getServerSideProps({ params }) {
 
 export default function Page({ kind }) {
   const isGrid = kind === 'grid'
-  const data = Array.from({ length: 5 }, (_, i) => i)
+  const data = Array.from({ length: 4 }, (_, i) => i)
   return (
     <>
       <Head>
